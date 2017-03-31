@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>用户注册页面</title>
+	<meta charset="utf-8">
+</head>
+<body>
+     <table border="1" cellspacing="0" cellpadding="10" width="600" height="100">
+     	<form action="http://10.7.1.98/taozhuo/form_data.php" method="get">
+     		<tr>
+     			<td align="left">用户名：</td>
+     			<td align="left"><input type="test" name="username"></td>
+     		</tr>
+     		<tr>
+     			<td align="left">密码：</td>
+     			<td align="left"><input type="password" name="password"/></td>
+     		</tr>
+     		<tr>
+     			<td align="left">确认密码：</td>
+     			<td align="left"><input type="password" name="repassword"/></td>
+     		</tr>
+     		<tr>
+     		    <td align="left">性别:</td>
+     		    <td align="left">
+                    <input type="radio" name="sex" value="male"/> 
+                    男
+                    <input type="radio" name="sex" value="female"/> 
+                    女 
+                </td>
+     	    </tr>
+     	    <tr>
+     	    	<td align="left">生日：</td>
+     	    	<td align="left">
+                    <select>
+                        <option>公历</option>
+                    	<option>阴历</option>
+                    </select>
+                    <select name="year">
+                        <option>年</option>
+        	            <option>1997</option>
+        	            <option>1998</option>
+        	            <option>1999</option>
+                    </select>
+                    <select name="month">
+                        <option>月</option>
+        	            <option>1</option>
+        	            <option>2</option>
+        	            <option>3</option>
+        	            <option>4</option>
+        	            <option>5</option>
+        	            <option>6</option>
+        	            <option>7</option>
+        	            <option>8</option>
+        	            <option>9</option>
+        	            <option>10</option>
+        	            <option>11</option>
+        	            <option>12</option>
+                    </select>
+                     <select name="day">
+                        <option>日</option>
+        	            <option>1</option>
+        	            <option>2</option>
+        	            <option>3</option>
+        	            <option>4</option>
+        	            <option>5</option>
+        	            <option>6</option>
+        	            <option>7</option>
+        	            <option>8</option>
+        	            <option>9</option>
+        	            <option>10</option>
+        	            <option>11</option>
+        	            <option>12</option>
+        	            <option>13</option>
+        	            <option>14</option>
+        	            <option>15</option>
+        	            <option>16</option>
+        	            <option>17</option>
+        	            <option>18</option>
+        	            <option>19</option>
+        	            <option>20</option>
+        	            <option>21</option>
+        	            <option>22</option>
+        	            <option>23</option>
+        	            <option>24</option>
+        	            <option>25</option>
+        	            <option>26</option>
+        	            <option>27</option>
+        	            <option>28</option>
+        	            <option>29</option>
+        	            <option>30</option>
+        	            <option>31</option>
+                    </select>
+     	    	</td>
+     	    </tr>
+     	    <tr>
+     	        <td align="left">所在地：</td>
+     	    	<td align="left">
+                    <select>
+                        <option>中国</option>
+                    	<option>外国</option>
+                    </select>
+                    <select>
+                        <option>河北</option>
+                    	<option>省外</option>
+                    </select>
+                    <select>
+                        <option>石家庄</option>
+                    	<option>廊坊</option>
+                    </select>
+     	    	</td>
+     	    </tr>
+     	    <tr>
+     	    	<td align="left">验证码：</td>
+     	    	<td align="left">
+     	    	    <input type="test" name="pin">
+                    <image src="timg.jpg" width="150" height="30">
+     	    	</td>
+     	    </tr>
+     	    <tr>
+     	    	<td align="left">证件类型：</td>
+     	    	<td align="left">
+     	    		<select>
+                        <option>身份证</option>
+                    	<option>护照</option>
+                    </select>
+     	    	</td>
+     	    </tr>
+     	    <tr>
+     	    	<td align="left">证件号：</td>
+     	    	<td align="left"><input type="test" name="id"></td>
+     	    </tr>
+     	    <tr>
+     	    	<td align="left">爱好</td>
+     	    	<td align="left">
+     	    		<input type="checkbox" name="hobby[]" value="singing" />
+                    音乐
+                    <input type="checkbox" name="hobby[]" value="reading" />
+                    读书
+                    <input type="checkbox" name="hobby[]" value="dancing" />
+                    跳舞
+                    <input type="checkbox" name="hobby[]" value="playing chess" />
+                    下棋    
+                    <input type="checkbox" name="hobby[]" value="other" />
+                    其他	    	
+                </td>
+     	    </tr>
+     	    <tr>
+     	    	<td align="left">说明</td>
+     	    	<td align="left"><textarea cols="20" rows="5"></textarea></td>
+     	    </tr>
+     	    <tr>
+     	    	<td align="left">上传头像</td>
+     	    	<td align="left"><input type="file" name="pic"></td>
+     	    </tr>
+     	    <tr>
+     	    	<td colspan="2" align="center">
+     	    		<input type="submit" value=" 提交">
+                    <input type="reset" value="重置">
+                    <input type="button" value="按钮">
+     	    	</td>
+     	    </tr>
+     	</form>
+     </table>
+</body>
+</html>
