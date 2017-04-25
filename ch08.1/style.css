@@ -1,0 +1,50 @@
+body{
+	font: 12px 'Arial字体';
+	color: gray;
+	line-height: 2em;
+}
+a:link{color: #727272;text-decoration: none;}
+a:visited{color: #727272;text-decoration: none;}
+a:hover{color: #727272;text-decoration: underline;}
+
+.green{color: #b9f605;font-size: 14px;font-weight: bolder;}
+
+a.one:link{color: white;font: 14px;}
+a.one:visited{color: white;font: 14px;}
+a.one:hover{color: #b9f605;font: 14px;text-decoration: none;}
+
+a.two:link{color: white;font: 14px;}
+a.two:visited{color: white;font: 14px;}
+a.two:hover{color: #b9f605;font: 14px;text-decoration: none;}
+
+a.three:link{color: white;font: 14px;}
+a.three:visited{color: white;font: 14px;}
+a.three:hover{color: #b9f605;font: 14px;text-decoration: none;}
+
+a.four:link{color: white;font: 14px;}
+a.four:visited{color: white;font: 14px;}
+a.four:hover{color: #b9f605;font: 14px;text-decoration: none;}
+
+a.five:link{color: white;font: 14px;}
+a.five:visited{color: white;font: 14px;}
+a.five:hover{color: #b9f605;font: 14px;text-decoration: none;}
+
+a.six:link{color: white;font: 14px;}
+a.six:visited{color: white;font: 14px;}
+a.six:hover{color: #b9f605;font: 14px;text-decoration: none;}
+
+a.seven:link{color: white;font: 14px;}
+a.seven:visited{color: white;font: 14px;}
+a.seven:hover{color: #b9f605;font: 14px;text-decoration: none;}
+
+a.eight:link{color: white;font: 14px;}
+a.eight:visited{color: white;font: 14px;}
+a.eight:hover{color: #b9f605;font: 14px;text-decoration: none;}
+
+a.nine:link{color: white;font: 14px;}
+a.nine:visited{color: white;font: 14px;}
+a.nine:hover{color: #b9f605;font: 14px;text-decoration: none;}
+
+a.orange:link{color: orange;}
+a.orange:visited{color: orange;}
+a.orange:hover{color: orange;}
